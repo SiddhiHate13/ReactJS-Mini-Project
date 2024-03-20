@@ -1,0 +1,97 @@
+App {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #b2e7f8;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.counter-container {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 120%;
+  font-style: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  right: 20%;
+  /* transform: translate(-50%, -50%); */
+  width: 380px;
+  margin: 20px;
+  padding: 8px;
+  border: 1px solid #070707;
+  border-radius: 5px;
+  background-color: #b5d8ff; /* Added background color */
+}
+
+.input {
+  font-family: 'Times New Roman', Times, serif;
+  width: 80px;
+  height: 50%;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+
+  
+  
+}
+
+.buttons button {
+  padding: 15px 62px;
+  border: 1px solid #5d5d5d;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 15px;
+  background-color: #0d3852; /* Added background color */
+}
+
+.buttons button:last-child {
+  margin-right: 0;
+}
